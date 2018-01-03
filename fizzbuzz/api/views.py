@@ -1,4 +1,5 @@
 from rest_framework import viewsets, mixins
+
 from fizzbuzz.api.models import FizzBuzz
 from fizzbuzz.api.serializers import FizzBuzzSerializer
 

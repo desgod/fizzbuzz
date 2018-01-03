@@ -1,7 +1,8 @@
 from django.conf.urls import url, include
-from rest_framework import routers
-from fizzbuzz.api import views
 from django.contrib import admin
+from rest_framework import routers
+
+from fizzbuzz.api import views
 
 
 router = routers.DefaultRouter()

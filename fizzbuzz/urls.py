@@ -5,7 +5,7 @@ from django.contrib import admin
 
 
 router = routers.DefaultRouter()
-router.register(r'fizzbuzz', views.FizzBuzzViewSet)
+router.register(r'fizzbuzz', views.FizzBuzzViewSet, base_name='fizzbuzz')
 
 urlpatterns = [
     url(r'^', include(router.urls)),
